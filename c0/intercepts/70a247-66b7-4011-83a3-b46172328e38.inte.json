@@ -1,6 +1,6 @@
 {
     "Ar36": {
-        "error": 9.849306709381197e-05,
+        "error": 0.0001778873601898943,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -9,17 +9,19 @@
             "use_iqr_filtering": false,
             "use_standard_deviation_filtering": false
         },
-        "fit": "linear",
-        "fn": 340,
+        "fit": "parabolic",
+        "fn": 339,
         "include_baseline_error": false,
         "n": 340,
-        "outlier_excluded": [],
+        "outlier_excluded": [
+            328
+        ],
         "reviewed": true,
         "user_excluded": [],
-        "value": 0.0027063315248031274
+        "value": 0.0024215129965073764
     },
     "Ar37": {
-        "error": 0.01690211683041358,
+        "error": 0.016902116830413587,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -37,7 +39,7 @@
         ],
         "reviewed": true,
         "user_excluded": [],
-        "value": 0.08384071348635225
+        "value": 0.08384071348635228
     },
     "Ar38": {
         "error": 0.005786593247618012,
@@ -56,10 +58,10 @@
         "outlier_excluded": [],
         "reviewed": true,
         "user_excluded": [],
-        "value": 0.09979713593552816
+        "value": 0.09979713593552818
     },
     "Ar39": {
-        "error": 0.01485782124949801,
+        "error": 0.01485782124949624,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -77,10 +79,10 @@
         ],
         "reviewed": true,
         "user_excluded": [],
-        "value": 0.0055859600953635374
+        "value": 0.0055859600953655445
     },
     "Ar40": {
-        "error": 0.030188636132462796,
+        "error": 0.030188636132463257,
         "error_type": "SEM",
         "filter_outliers_dict": {
             "filter_outliers": true,
@@ -98,6 +100,6 @@
         ],
         "reviewed": true,
         "user_excluded": [],
-        "value": 0.5316836229997606
+        "value": 0.5316836229997526
     }
 }
